@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 2em;
+    height: 20em;
+    width: 30em;
+    display: inline-table;
+    text-align: center;
+    background-color: cadetblue;
+}
