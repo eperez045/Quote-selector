@@ -11,23 +11,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="box">
-            <h1>Quote Gen | Find your daily Quote</h1>
-            <blockquote class="cita"></blockquote>
-            <cite class="autor"></cite>
-            <h5>Select the quote category</h5>
+            <h1>Quote Gen</h1>
             <form>
-                <input type="button" onclick="quoteProgram()" value="Programing" class="boton">
-                <input type="button" onclick="quoteInspo()" value="Inspiration" class="boton">
-                <input type="button" onclick="quoteManagement()" value="Management" class="boton">
-                <input type="button" onclick="quoteLife()" value="Life" class="boton">
-                <input type="button" onclick="quoteLove()" value="Love" class="boton">
-                <input type="button" onclick="quoteArt()" value="Art" class="boton">
+                <button class ="btn" id="newQuote"type="submit">New Quote</button>
+                
             </form>
+            <div class="quotes text-center">
+                <blockquote class="quote"></blockquote>
+                <p class="author"></p>
+          </div>
         </div>
     </div>
     <script src="main.js"></script>
